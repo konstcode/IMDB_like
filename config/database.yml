@@ -47,7 +47,6 @@ test:
 #   production:
 #
 production:
-  <<: *default
   url: <%= ENV['DATABASE_URL'] %>
 #  database: rt85poa2ivo952zq
 #  username: urr9vfe6hrs5h1fp

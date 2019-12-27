@@ -27,7 +27,7 @@ gem "administrate"
 gem "bcrypt", '~> 3.1'
 gem 'kaminari'
 gem 'ratyrate'
-gem 'mysql2', '0.3.18'
+gem 'mysql2', '>= 0.4.4'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
